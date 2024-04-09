@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: italic bold;
+    padding: 3%;
+}
+h1{ 
+    text-align: center;
+    padding: 10px;
+}
+
+.CRUDlinks{
+
+
+}
+.headings{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+}
+
+.filminfo{
+display: flex;
+justify-content: space-between;
+flex-basis: 10%, 40%, 10%, 10%, 10%, 20% ;
+align-content: flex-start;
+}
+
+/* .actions{
+    display:flex;
+    flex-direction: column;
+} */
