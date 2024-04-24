@@ -5,29 +5,44 @@ body{
     font-style: italic bold;
     padding: 3%;
 }
+
 h1{ 
+    font-size: 40px;
     text-align: center;
     padding: 10px;
 }
 
-/* .CRUDlinks{
+.headings{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.update a{
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+} 
 
 
-} */
+/* 
+
+.insert{
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+}
+
 .headings{
     display: flex;
     justify-content: space-between;
     text-decoration: underline;
 }
 
-.filminfo{
-display: flex;
-justify-content: space-between;
-flex-basis: 10%, 40%, 10%, 10%, 10%, 20% ;
-align-content: flex-start;
+tr.filminfo{
+    display: flex;
+    justify-content: space-between;
+    align-content: right;
 }
 
-/* .actions{
-    display:flex;
-    flex-direction: column;
+
 } */
